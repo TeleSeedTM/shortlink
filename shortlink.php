@@ -3,8 +3,8 @@
 ob_start();
 //token ro inja vared konid
 define('API_KEY','توکن');
-$admin = "266151360";
-$admin2 = "93161337";
+$admin = "ایدی عددی";
+$admin2 = "ایدی عددی دو";
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
     $ch = curl_init();
